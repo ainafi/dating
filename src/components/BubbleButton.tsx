@@ -19,7 +19,7 @@ const BubbleButton: React.FC<BubbleButtonProps> = ({ nextStep }) => {
   return (
     <div className="relative inline-block mb-5">
       <button
-        className="px-6 py-3 mt-5 text-white bg-pink-500 rounded-full hover:bg-pink-600 focus:outline-none w-[400px]"
+        className="w-[200px] md:w-[350px] px-6 py-3 mt-5 text-white bg-pink-500 rounded-full hover:bg-pink-600 focus:outline-none "
         onClick={handleClick}
       >
         Click Me

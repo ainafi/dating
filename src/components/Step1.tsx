@@ -16,7 +16,7 @@ const Step1: React.FC<StepProps> = ({ nextStep, noStep }) => {
      
       <div className="flex flex-col items-center justify-center px-4 py-20">
         <img className="w-[400px]" src={Image1} alt="Step 1" />
-        <h1 className="py-10 text-3xl font-love text-primary">Veux-tu sortir avec moi?</h1>
+        <h1 className="py-10 text-3xl text-center font-love text-primary">Veux-tu sortir avec moi?</h1>
         <div>
           <button
             className="w-[100px] bg-primary rounded-md text-white text-xl hover:bg-pink-400 ease-in-out duration-100"
