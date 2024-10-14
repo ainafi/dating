@@ -12,7 +12,7 @@ const Step3: React.FC<StepProps> = ({ nextStep }) => (
   <div className='w-full h-screen mx-auto max-w-7xl'>
     <div className='flex flex-col items-center justify-center px-4 py-20'>
         <img className='w-[400px] rounded-md' src={Gif3} alt="Step 2" />
-        <h1 className='py-10 text-3xl font-love text-primary'>Quand tu as une temps libre</h1>
+        <h1 className='py-10 text-2xl text-center md:text-3xl font-love text-primary'>Quand tu as une temps libre</h1>
         <div className='pb-5'>
             <DatePickerDemo/>
         </div>
