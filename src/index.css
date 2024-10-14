@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "love";
+  src: url("./assets/fonts/Love.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BubbleButton.css */
+.bubble {
+  @apply absolute top-0 w-4 h-4 bg-pink-500 rounded-full left-1/2 ;
+  transform: translateX(-50%);
+}
+.heart {
+  @apply absolute w-5 h-5;
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
