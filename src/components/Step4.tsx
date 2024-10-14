@@ -53,7 +53,7 @@ const Step4: React.FC<StepProps> = ({ nextStep }) => {
         }
       </div>
 
-      <div className='flex items-center justify-center py-8 pb-5'>
+      <div className='flex items-center justify-center py-8'>
         <BubbleButton nextStep={nextStep} />
       </div>
     </div>
