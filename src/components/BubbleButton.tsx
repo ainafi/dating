@@ -24,7 +24,7 @@ const BubbleButton: React.FC<BubbleButtonProps> = ({ nextStep }) => {
       >
         Click Me
       </button>
-      {hearts.map((heart, index) => (
+      {hearts.map((index) => (
         <motion.div
           key={index}
           className="heart"
